@@ -1,4 +1,4 @@
-SECTION .data
+
 msg 	db 	"Hello World!",0Ah
 
 SECTION .text
