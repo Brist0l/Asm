@@ -1,4 +1,16 @@
 ;---------------------
+; int atoi(int)
+; Ascii to Integer conver
+atoi:
+	push 	ebx
+	push 	ecx
+	push 	edx
+	push 	esi
+	mov 	esi,eax
+	mov 	eax,0
+	mov 	ecx,0
+
+;---------------------
 ; void iprint
 ; Integer printing function(iota)
 iprint:
